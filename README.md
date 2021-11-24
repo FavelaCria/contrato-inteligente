@@ -6,7 +6,7 @@ contract MultiSigWallet {
     address private _owner;
     mapping(address => uint8) private _owners;
 
-    uint constant MIN_SIGNATURES = 2;
+    uint constant MIN_SIGNATURES = 3;
     uint private _transactionIdx;
 
     struct Transaction {
