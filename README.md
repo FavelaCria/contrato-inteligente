@@ -1,4 +1,4 @@
-# smart-contract
+# contrato-inteligente | smart-contract
 pragma solidity ^0.4.0;
 
 contract MultiSigWallet {
